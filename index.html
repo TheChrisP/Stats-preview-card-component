@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/tailwind.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body class="bg-BlueDark font-inter text-White">
+    <div class="flex items-center justify-center min-h-screen p-6">
+      <div class="bg-BLueDesaturated rounded-lg overflow-hidden sm:flex sm:flex-row-reverse sm:w-4/5">
+        <div class="sm:w-1/2">
+          <div class="bg-VioletSoft h-full block sm:hidden">
+            <img class="opacity-70 mix-blend-multiply h-full w-full object-cover" src="images/image-header-mobile.jpg" alt="" />
+          </div>
+          <div class="bg-VioletSoft h-full hidden sm:block">
+            <img class="opacity-70 mix-blend-multiply h-full w-full object-cover" src="images/image-header-desktop.jpg" alt="" />
+          </div>
+        </div>
+        <main class="sm:w-1/2 sm:p-10">
+          <div class="px-8 pt-12 text-center sm:text-left sm:pr-6 sm:pt-10">
+            <h1 class="text-2xl font-bold sm:text-4xl">Get <span class="text-VioletSoft">insights</span> that help your business grow.</h1>
+          </div>
+          <div class="px-8 pt-4 text-center sm:text-left sm:pt-8 sm:w-5/6">
+            <p class="text-WhiteParagraph leading-6 text-sl">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+          </div>
+          <div class="px-8 pt-2 pb-8 text-center sm:text-left sm:pt-8 sm:pr-28">
+            <div class="flex flex-col sm:flex-row sm:justify-between">
+              <div class="pt-8">
+                <p class="font-bold text-2xl">10k+</p>
+                <h3 class="text-xs tracking-widest text-WhiteHeadings uppercase pt-1 font-lexendDeca">companies</h3>
+              </div>
+              <div class="pt-8">
+                <p class="font-bold text-2xl">314</p>
+                <h3 class="text-xs tracking-widest text-WhiteHeadings uppercase pt-1 font-lexendDeca">templates</h3>
+              </div>
+              <div class="pt-8">
+                <p class="font-bold text-2xl uppercase">12m+</p>
+                <h3 class="text-xs tracking-widest text-WhiteHeadings uppercase pt-1 font-lexendDeca">queries</h3>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
